@@ -24,6 +24,11 @@ public class Podcast extends Media {
     }
 
     @Override
+    public String toString(){
+        return title  +  (" + type + ");
+    }
+
+    @Override
     public void displayMetaData() {
         super.displayMetaData();
         System.out.println("Genre: " + getGenre());

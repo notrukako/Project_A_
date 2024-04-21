@@ -31,6 +31,11 @@ public class Movie extends Media {
     }
 
     @Override
+    public String toString(){
+        return title  +  (" + type + ");
+    }
+
+    @Override
     public void displayMetaData() {
         System.out.println("The " + getTitle() + " is Directed by " + getDirector() + ", was released in "
                 + getYearReleased() + ", and is " + getDuration() + " minutes long!");

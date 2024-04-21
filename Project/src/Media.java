@@ -32,6 +32,10 @@ public class Media implements MediaItem {
     }
 
     @Override
+    public String toString(){
+        return title  +  (" + type + ");
+    }
+    @Override
     public String getTitle() {
         return title;
     }

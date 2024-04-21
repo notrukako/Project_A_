@@ -37,7 +37,11 @@ public class Anime extends Media {
     public String getStudio() {
         return studio;
     }
-
+    @Override
+    public String toString(){
+        return title  +  (" + type + ");
+    }
+    
     @Override
     public void displayMetaData() {
         super.displayMetaData();

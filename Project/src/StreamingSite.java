@@ -32,9 +32,10 @@ public class StreamingSite {
         } else if (choice == 8) {
             break;
         } else {
-            System.out.println("Pick an option 1 - 8");
+            System.out.println("Pick an option 1 - 7");
         }
     }
+}
 
 
 
