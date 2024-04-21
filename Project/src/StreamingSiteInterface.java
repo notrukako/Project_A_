@@ -7,8 +7,8 @@ public class StreamingSiteInterface {
     // Define media items as static fields
     static Media movie1 = new Movie("The Matrix","Lana Wachowski","1999", 120.0, true,MediaType.MOVIE,MovieGenre.ACTION);
     static Media movie2 = new Movie("Inception", "Christopher Nolan","2010", 150.0,true, MediaType.MOVIE,MovieGenre.SCI_FI);
-    static Media anime1 = new Anime("Naruto", genre.SHOUNEN, 1,25, "Toei", true, MediaType.ANIME, 25.0);
-    static Media anime2 = new Anime("Attack on Titan", genre.ACTION,1, 24, "WIT", true, MediaType.ANIME, 30.0);
+    static Media anime1 = new Anime("Naruto", genre.SHOUNEN, 5, 220, "Pierrot", true, MediaType.ANIME, 25.0);
+    static Media anime2 = new Anime("Attack on Titan", genre.ACTION,4, 89, "WIT/MAPPA", true, MediaType.ANIME, 30.0);
     static Media podcast1 = new Podcast("Mata Najwa", "Najwa", 20.0, genre.DAILY_LIFE, true, MediaType.PODCAST);
     static Media podcast2 = new Podcast("Close The Door", "Deddy Corbuzier", 40.0, genre.COMMENTARY, true, MediaType.PODCAST);
 
