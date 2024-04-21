@@ -39,7 +39,7 @@ public class Anime extends Media {
     }
     @Override
     public String toString(){
-        return title  +  (" + type + ");
+        return title  + " (" + (type) + ")";
     }
     
     @Override

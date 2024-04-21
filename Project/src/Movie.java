@@ -32,7 +32,7 @@ public class Movie extends Media {
 
     @Override
     public String toString(){
-        return title  +  (" + type + ");
+        return title  + " (" + (type) + ")";
     }
 
     @Override

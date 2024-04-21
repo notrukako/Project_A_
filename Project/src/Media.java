@@ -19,9 +19,9 @@ enum MediaType {
 
 // Define a class to represent a media item
 public class Media implements MediaItem {
-    private String title;
+    protected String title;
     private boolean isWatchable;
-    private MediaType type;
+    protected MediaType type;
     private double duration;
 
     public Media(String title, boolean isWatchable, MediaType type, double duration) {
@@ -33,7 +33,7 @@ public class Media implements MediaItem {
 
     @Override
     public String toString(){
-        return title  +  (" + type + ");
+        return title  + " (" + (type) + ")";
     }
     @Override
     public String getTitle() {

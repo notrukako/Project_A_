@@ -25,7 +25,7 @@ public class Podcast extends Media {
 
     @Override
     public String toString(){
-        return title  +  (" + type + ");
+        return title  + " (" + (type) + ")";
     }
 
     @Override
