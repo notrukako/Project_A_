@@ -14,7 +14,8 @@ public class StreamingSite {
         System.out.println("  4. Inception");
         System.out.println("  5. Mata Najwa");
         System.out.println("  6. Close The Door");
-        System.out.println("  7. Exit");
+        System.out.println("  7. Create an Account?");
+        System.out.println("  8. Exit");
 
         int choice = In.nextInt();
         if (choice == 1) {
@@ -23,16 +24,19 @@ public class StreamingSite {
             anime2();
         } else if (choice == 3) {
             Movie1();
-        } else if (choice == 2) {
+        } else if (choice == 4) {
             Movie2();
-        } else if (choice == 2) {
+        } else if (choice == 5) {
             Podcast1();
-        } else if (choice == 2) {
+        } else if (choice == 6) {
             Podcast2();
-        
-
+        } else if (choice == 7) {
+            String addSubscriber = In.nextLine();
+            Subscribers subscriber = new Subscribers(addSubscriber);
+        } else if (choice == 8) {
+            break;
         } else {
-            System.out.println("Pick an option 1 - 7");
+        System.out.println("Pick an option 1 - 7");
         }
     }
 
@@ -45,8 +49,8 @@ public class StreamingSite {
         Media anime2 = new Anime("Attack on Titan", genre.ACTION,1, 24, "WIT", true, MediaType.ANIME, 30.0);
         Media podcast1 = new Podcast("Mata Najwa", "Najwa", 20.0, genre.DAILY_LIFE, true, MediaType.PODCAST);
         Media podcast2 = new Podcast("Close The Door", "Deddy Corbuzier", 40.0, genre.COMMENTARY, true, MediaType.PODCAST);
-        // Create a subscriber
-        Subscribers subscriber = new Subscribers("Alice");
+
+        
 
         // Subscriber watches media items
         subscriber.watchMedia("M1", movie1);
