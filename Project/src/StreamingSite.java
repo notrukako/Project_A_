@@ -50,7 +50,7 @@ public class StreamingSite {
         Media podcast1 = new Podcast("Mata Najwa", "Najwa", 20.0, genre.DAILY_LIFE, true, MediaType.PODCAST);
         Media podcast2 = new Podcast("Close The Door", "Deddy Corbuzier", 40.0, genre.COMMENTARY, true, MediaType.PODCAST);
 
-        
+        subscriber = addSubscriber;
 
         // Subscriber watches media items
         subscriber.watchMedia("M1", movie1);
