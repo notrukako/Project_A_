@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Project_A_ba270ebd",
+            "vmArgs": "--module-path \"\\Users\\richa\\Downloads\\openjfx-22_windows-x64_bin-sdk\\javafx-sdk-22\\lib\" --add-modules javafx.controls,javafx.fxml,javafx.web"
+        },
+        {
+            "type": "java",
+            "name": "embed",
+            "request": "launch",
+            "mainClass": "embed",
+            "projectName": "Project_A_ba270ebd",
+            "vmArgs": "--module-path \"\\Users\\richa\\Downloads\\openjfx-22_windows-x64_bin-sdk\\javafx-sdk-22\\lib\" --add-modules javafx.controls,javafx.fxml,javafx.web"
+        }
+    ]
+}
